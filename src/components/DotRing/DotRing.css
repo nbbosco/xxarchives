@@ -28,3 +28,12 @@
     z-index: 999;
     pointer-events: none;
   }
+
+  @media screen and (max-width: 992px) {
+    .ring {
+    visibility: hidden;
+    };
+    .dot {
+    visibility: hidden;
+    }
+  }
