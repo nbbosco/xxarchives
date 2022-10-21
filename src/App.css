@@ -8,9 +8,7 @@
 }
 
 .App-background {
-  height: 100%;
-  width: 100%;
-  pointer-events: circle;
+  height: 100vh;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -20,7 +18,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
